@@ -44,7 +44,7 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1158px;
+  max-width: 320px;
 
   margin: 0 auto;
 
@@ -54,15 +54,19 @@ img {
 
 @media screen and (min-width: 768px) {
   .container {
-    padding-left: 24px;
-    padding-right: 24px;
+    max-width: 768px;
+
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .container {
-    padding-left: 0;
-    padding-right: 0;
+    max-width: 1158px;
+
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
