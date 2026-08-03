@@ -54,13 +54,6 @@
 
   .features-title {
     text-align: left;
-
-    font-size: 20px;
-    line-height: 1.2;
-  }
-
-  .features-text {
-    font-weight: 400;
   }
 }
 
@@ -74,6 +67,10 @@
 
   .features-item {
     width: calc((100% - 72px) / 4);
+  }
+
+  .features-title {
+    font-weight: 500;
   }
 
   .features-icon-box {
