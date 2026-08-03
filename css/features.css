@@ -62,15 +62,12 @@
 @media screen and (min-width: 1158px) {
   .features-list {
     flex-wrap: nowrap;
+
     gap: 24px;
   }
 
   .features-item {
     width: calc((100% - 72px) / 4);
-  }
-
-  .features-title {
-    font-weight: 500;
   }
 
   .features-icon-box {
@@ -86,5 +83,17 @@
     background-color: #f4f4fd;
 
     border-radius: 4px;
+  }
+
+  .features-title {
+    font-weight: 500;
+
+    font-size: 20px;
+
+    line-height: 1.2;
+  }
+
+  .features-text {
+    font-weight: 400;
   }
 }
