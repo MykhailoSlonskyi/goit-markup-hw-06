@@ -20,6 +20,12 @@
   overflow-y: auto;
 }
 
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
 .mobile-menu.is-open {
   opacity: 1;
   visibility: visible;
