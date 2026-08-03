@@ -1,19 +1,21 @@
-/*? Mobile skreen */
 .container {
-  width: 320px;
-  padding: 0 16px;
+  width: 100%;
+  max-width: 1158px;
   margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
-/*? tablet skreen */
+
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
-/*? Desktop skreen */
+
 @media screen and (min-width: 1158px) {
   .container {
-    width: 1158px;
-    padding: 0px 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
