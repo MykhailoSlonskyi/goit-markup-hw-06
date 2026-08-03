@@ -1,0 +1,136 @@
+.footer {
+  padding: 100px 0;
+  background-color: #2e2f42;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-info {
+  margin-right: 120px;
+}
+
+.footer-social {
+  margin-right: auto;
+}
+
+/* LOGO */
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-logo-accent {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.footer-input {
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+
+  background-color: transparent;
+  color: #ffffff;
+
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-input::placeholder {
+  color: #ffffff;
+}
+.footer-input:focus {
+  border-color: #31d0aa;
+  outline: none;
+}
+.footer-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  min-width: 165px;
+  height: 40px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+
+  background-color: #4d5ae5;
+
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+  background-color: #31d0aa;
+}
+
+.footer-btn svg {
+  fill: #ffffff;
+}
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+/* TEXT */
+.footer-text {
+  max-width: 264px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+/* SOCIAL */
+.footer-social-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social-link {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
