@@ -1,5 +1,6 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+
 <symbol id="icon-click" viewBox="0 0 32 32">
 <path fill="#404bbf" style="fill: var(--color1, #404bbf)" d="M4 1h24c1.657 0 3 1.343 3 3v24c0 1.657-1.343 3-3 3h-24c-1.657 0-3-1.343-3-3v-24c0-1.657 1.343-3 3-3z"></path>
 <path fill="none" stroke="#404bbf" style="stroke: var(--color1, #404bbf)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2" d="M4 1h24c1.657 0 3 1.343 3 3v24c0 1.657-1.343 3-3 3h-24c-1.657 0-3-1.343-3-3v-24c0-1.657 1.343-3 3-3z"></path>
@@ -82,5 +83,13 @@
 <symbol id="icon-check" viewBox="0 0 10 8">
 <path d="M1 4L4 7L9 1" stroke="currentColor" stroke-width="1.5" fill="none"/>
 </symbol>
+<symbol id="icon-burger-menu" viewBox="0 0 32 32">
+<path d="M4.8 8c0-0.424 0.169-0.831 0.469-1.131s0.707-0.469 1.131-0.469h19.2c0.424 0 0.831 0.169 1.131 0.469s0.469 0.707 0.469 1.131-0.169 0.831-0.469 1.131c-0.3 0.3-0.707 0.469-1.131 0.469h-19.2c-0.424 0-0.831-0.169-1.131-0.469s-0.469-0.707-0.469-1.131z"></path>
+<path d="M4.8 16c0-0.424 0.169-0.831 0.469-1.131s0.707-0.469 1.131-0.469h19.2c0.424 0 0.831 0.169 1.131 0.469s0.469 0.707 0.469 1.131-0.169 0.831-0.469 1.131c-0.3 0.3-0.707 0.469-1.131 0.469h-19.2c-0.424 0-0.831-0.169-1.131-0.469s-0.469-0.707-0.469-1.131z"></path>
+<path d="M4.8 24c0-0.424 0.169-0.831 0.469-1.131s0.707-0.469 1.131-0.469h19.2c0.424 0 0.831 0.169 1.131 0.469s0.469 0.707 0.469 1.131-0.169 0.831-0.469 1.131c-0.3 0.3-0.707 0.469-1.131 0.469h-19.2c-0.424 0-0.831-0.169-1.131-0.469s-0.469-0.707-0.469-1.131z"></path>
+</symbol>
+
+
+
 </defs>
 </svg>

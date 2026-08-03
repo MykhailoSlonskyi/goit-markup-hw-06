@@ -21,17 +21,17 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/mobile-menu.css" />
   </head>
 
   <body>
     <!-- HEADER -->
     <header id="header" class="header">
       <div class="container header-container">
+        <a href="./index.html" class="logo">
+          Web<span class="logo-accent">Studio</span>
+        </a>
         <nav class="navigation">
-          <a href="./index.html" class="logo">
-            Web<span class="logo-accent">Studio</span>
-          </a>
-
           <ul class="nav-list">
             <li><a href="./index.html" class="nav-link current">Studio</a></li>
             <li><a href="" class="nav-link">Portfolio</a></li>
@@ -53,6 +53,11 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="menu-open-btn" aria-label="Open menu">
+          <svg width="24" height="24">
+            <use href="./images/icons.svg#icon-burger-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -487,7 +492,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open" id="modal">
+    <div class="backdrop" id="modal">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-close-icon" width="8" height="8">
@@ -568,6 +573,36 @@
 
           <button type="submit" class="modal-submit-btn">Send</button>
         </form>
+      </div>
+    </div>
+    <div class="mobile-menu is-open" id="mobile-menu">
+      <div class="mobile-menu-container">
+        <button type="button" class="mobile-menu-close">
+          <svg width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <nav class="mobile-nav">
+          <ul class="mobile-nav-list">
+            <li>
+              <a href="./index.html" class="mobile-nav-link current">Studio</a>
+            </li>
+            <li><a href="" class="mobile-nav-link">Portfolio</a></li>
+            <li><a href="" class="mobile-nav-link">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <address class="mobile-contacts">
+          <ul>
+            <li>
+              <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+            <li>
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+          </ul>
+        </address>
       </div>
     </div>
   </body>
